@@ -1,7 +1,6 @@
 import React from 'react'
 import {card} from '../assets'
 import styles,  {layout} from '../styles'
-import {Button} from './button'
 
 const CardDeal = () => {
   return (
@@ -15,7 +14,10 @@ const CardDeal = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Arcu tortor, purus i mattis at sed integer faucibus. Aliquet ques aliquet eget mauris tortor. c Aliquet ultrices ac, ametau.
         </p>
-      <Button styles="mt-10"/>
+      
+    <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-md`}>
+      Get Started
+    </button>
       </div>
       <div className={`${layout.sectionsImg}`}>
         <img src={card} alt="card" className="w-[100%] h-[100%]"/>
