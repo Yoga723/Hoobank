@@ -1,7 +1,7 @@
 import React from 'react'
 import {card} from '../assets'
 import styles,  {layout} from '../styles'
-import Button from './button'
+import {Button} from './button'
 
 const CardDeal = () => {
   return (
